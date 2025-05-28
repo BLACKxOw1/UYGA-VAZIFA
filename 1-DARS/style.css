@@ -12,6 +12,7 @@
     --main-color3: #F5F5F5;
     --main-color4: #000000;
     --main-color5: #250441;
+    --main-color6: #17002E;
 }
 
 body {
@@ -197,4 +198,114 @@ header {
     max-width: 211px;
     height: 66px;
     margin: auto;
+}
+
+.footer {
+    background-color: var(--main-color3);
+    padding-bottom: 50px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.olma {
+    color: var(--main-color2);
+}
+
+.foot_one {
+    display: flex;
+    margin-top: 55px;
+    gap: 30px;
+}
+
+.foot_head {
+    padding-top: 67px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot_head h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0%;
+}
+
+.foot_head h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding-top: 9.25px;
+}
+
+.fayko {
+    width: 492.86px;
+    height: 199px;
+    background-color: var(--main-color6);
+
+}
+
+/* .container2{
+    width: 428px;
+} */
+
+.mexi {
+    display: flex;
+    padding-top: 30px;
+}
+
+.mexi h3{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: var(--main-color3);
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.mexi img {
+    width: 53.57px;
+    height: 50px;
+}
+
+.banan {
+    color: var(--main-color2);
+}
+
+.men {
+    margin-top: 30px;
+}
+
+.fayko p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    padding-left: 32px;
+    margin: 5px 0;
+}
+
+
+.fayko div {
+    padding-left: 32px;
+}
+
+
+
+
+
+.underline {
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    width: 350px;
+    margin-left: 32px;
 }
