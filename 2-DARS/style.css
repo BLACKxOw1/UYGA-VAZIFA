@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 700px;
+    height: 600px;
+    color: white;
+    margin: 150px auto;
+
+    background-image: url('https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    /* filter: blur(3px); */
+}
+
+.dad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside{
+    
+    min-width: 450px;
+    min-height: 300px;
+    border: 10px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    justify-content: center;
+}
+
+.inside h1{
+    font-size: 80px;
+}
+
+.inside p{
+    font-size: 25px;
+}
