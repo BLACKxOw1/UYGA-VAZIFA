@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/stack-stones-covered-with-moss-top-mountain-mountains-scene-concept-balance-harmony-stack-zen-rocks-wild-nature-geology-detail_127089-4212.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+.container {
+    max-width: 1800px;
+    min-width: 1800px;
+    color: white;
+    margin: 150px auto;
+}
+
+.head_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+
+.head_h1 {
+    font-size: 23px;
+}
+
+.lists {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+.lists a {
+    font-size: 25px;
+}
+
+.solo {
+    background-color: white;
+    color: rgba(103, 103, 107, 0.833);
+    width: 80px;
+    height: 35px;
+}
+
+.solo:hover {
+    box-shadow: 10px 10px 10px -5px;
+
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: none;
+}
+
+.home:hover {
+    background-color: yellowgreen;
+    width: 130px;
+    box-shadow: 10px 10px 10px -5px;
+}
+
+.home:active {
+    background-color: dodgerblue;
+}
+
+.underline {
+    min-width: 1800px;
+    max-width: 1800px;
+    height: 3px;
+    background-color: white;
+    margin: 20px 0px 270px;
+}
+
+.welcome {
+    font-size: 22px;
+}
+
+.center {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fayko {
+    padding-top: 30px;
+    padding-bottom: 3px;
+}
+
+.habib {
+    padding-bottom: 40px;
+}
+
+.head_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_1 {
+    text-decoration: none;
+    color: rgba(103, 103, 107, 0.833);
+    font-size: 20px;
+    padding: 17px 20px;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.btn_2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 17px 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.bye {
+    display: flex;
+    gap: 40px;
+}
