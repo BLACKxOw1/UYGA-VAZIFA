@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/tree-leaves-dark-pattern-background_232693-137.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+.all {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 43px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.search {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search input {
+    border: none;
+    padding: 20px;
+    flex: 1;
+    font-size: 20px;
+}
+
+.search button {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.search button img {
+    height: 26px;
+    width: 26px;
+}
+
+.suggested {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.suggested span {
+    color: rgb(198, 185, 185);
+}
