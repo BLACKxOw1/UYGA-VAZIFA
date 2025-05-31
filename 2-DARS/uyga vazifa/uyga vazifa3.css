@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?cs=srgb&dl=pexels-tae-fuller-331517-1141853.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.first_head {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.mdb {
+    font-size: 35px;
+    color: white;
+}
+
+.later a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+}
+
+.second_head a img {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+
+.second_head a {
+    gap: 90px;
+}
+
+.learn {
+    font-size: 60px;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web {
+    font-size: 33px;
+    color: white;
+    margin: 30px 0px 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.last a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 13px 25px;
+    border: 2px solid white;
+}
