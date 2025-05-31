@@ -42,6 +42,37 @@ body {
     padding: 10px;
 }
 
+.later a:hover {
+    background-color: rgb(55, 163, 246);
+    height: 60px;
+}
+
+.later a:active {
+    background-color: red;
+    height: 60px;
+}
+
+.second_head a:hover {
+    background-color: rgb(55, 163, 246);
+    height: 60px;
+}
+
+.second_head a:active {
+    background-color: red;
+    height: 60px;
+}
+
+.last a:hover {
+    background-color: rgb(55, 163, 246);
+    height: 60px;
+}
+
+.last a:active {
+    background-color: red;
+    height: 60px;
+}
+
+
 .second_head a img {
     width: 35px;
     height: 35px;
@@ -70,7 +101,7 @@ body {
     justify-content: center;
 }
 
-.last{
+.last {
     display: flex;
     align-items: center;
     justify-content: center;
