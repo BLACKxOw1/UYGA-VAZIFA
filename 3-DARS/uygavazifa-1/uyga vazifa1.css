@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color1: #01BAB3;
+    --main-color2: #FFFFFF;
+    --main-color3: #FB3838;
+    --main-color4: #D9D9D9;
+    --main-color5: #F4F8FA;
+}
+
+.header {
+    width: 100%;
+    height: 56px;
+    margin-top: 20px;
+    background-color: var(--main-color2);
+    border-bottom: 3px solid lightgray;
+}
+
+.container {
+    max-width: 1680px;
+    margin: auto;
+}
+
+.head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second a {
+    color: black;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+.login {
+    padding: 2px 15px 11px 15px;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.login:hover {
+    padding: 2px 15px 11px 15px;
+    border: 3px solid var(--main-color1);
+    color: var(--main-color1);
+    text-decoration: underline;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.open {
+    padding: 2px 15px 11px 15px;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.open:hover {
+    padding: 2px 15px 11px 15px;
+    border: 3px solid var(--main-color1);
+    color: var(--main-color1);
+    text-decoration: underline;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.english {
+    padding: 2px 25px 11px 15px;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.english:hover {
+    padding: 2px 25px 11px 15px;
+    border: 3px solid var(--main-color1);
+    color: var(--main-color1);
+    text-decoration: underline;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: var(--main-color5);
+    height: 984px;
+}
+
+.open_acc {
+    position: relative;
+    width: 496px;
+    height: 849px;
+    top: 25px;
+    background-color: var(--main-color2);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px -15px;
+}
+
+.container2 {
+    max-width: 416px;
+    margin: auto;
+}
+
+.hello {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.olma {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #444150;
+}
+
+.anor a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: var(--main-color1);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.Already {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.name {
+    display: flex;
+    gap: 16px;
+    padding-top: 55px;
+}
+
+.information label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.information input {
+    width: 200px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #444150;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.star {
+    color: var(--main-color1);
+}
+
+.birth label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.birth {
+    padding-top: 24px;
+}
+
+.birth input {
+    width: 416px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #444150;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.option {
+    display: flex;
+    gap: 8px;
+}
+
+.gender {
+    padding-top: 24px;
+}
+
+.gender label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.option label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.gender-option {
+    min-width: 200px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.skype {
+    padding-top: 24px;
+}
+
+.skype label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.skype input {
+    width: 416px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #444150;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.promo {
+    padding-top: 24px;
+}
+
+.promo label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.promo input {
+    width: 416px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #444150;
+    border: 1px solid var(--main-color4);
+    border-radius: 5px;
+}
+
+.anchor {
+    position: relative;
+    top: 24px;
+    width: 416px;
+    height: 48px;
+    background-color: var(--main-color1);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.anchor a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--main-color2);
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.anchor img {
+    position: relative;
+    padding-left: 10px;
+    top: 5px;
+    width: 30px;
+    height: 12px;
+}
+
+.last p{
+    padding-top: 89px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+}
