@@ -98,7 +98,7 @@ main {
 .open_acc {
     position: relative;
     width: 496px;
-    height: 849px;
+    height: 859px;
     top: 25px;
     background-color: var(--main-color2);
     border: none;
@@ -290,38 +290,36 @@ main {
     border-radius: 5px;
 }
 
-.anchor {
-    position: relative;
-    top: 24px;
-    width: 416px;
-    height: 48px;
-    background-color: var(--main-color1);
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 40px;
+.btn {
+    margin-bottom: 50px;
+    margin-top: 24px;
 }
 
-.anchor a {
-    text-decoration: none;
+.btn button {
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
+    width: 416px;
+    height: 48px;
+    border-radius: 5px;
     color: var(--main-color2);
     display: flex;
     justify-content: center;
-    padding-top: 16px;
+    align-items: center;
+    border: none;
+    background-color: var(--main-color1);
 }
 
-.anchor img {
+.btn img {
     position: relative;
     padding-left: 10px;
-    top: 5px;
+    top: 2px;
     width: 30px;
     height: 12px;
 }
 
-.last p{
+.last p {
     padding-top: 89px;
     font-weight: 400;
     font-size: 14px;
