@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.switch{
+    appearance: none;
+    padding: 5px;
+    width: 90px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: gray;
+    margin: 500px;
+}
+
+.switch::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.switch:checked::after{
+    margin-left: 40px;
+    background-color: green;
+}

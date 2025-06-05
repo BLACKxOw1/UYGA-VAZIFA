@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color1: rgba(0, 0, 0, 0.88);
+    --main-color2: #57B8FF;
+    --main-color3: #FDD04A;
+    --main-color4: rgba(87, 184, 255, 1);
+    --main-color5: ;
+}
+
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to right, black 50%, rgba(87, 184, 255, 1) 50%);
+}
+
+.jeader2 {
+    padding-top: 20px;
+    display: flex;
+}
+
+.ali {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.vali {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.felix {
+    display: flex;
+}
+
+.image_1 {
+    display: flex;
+    align-items: center;
+}
+
+.image_1 img {
+    width: 170px;
+    height: 48px;
+}
+
+.image_2 img {
+    width: 48px;
+    height: 48px;
+}
+
+
+.head_then {
+    gap: 60px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.head_main {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.head_main h3 {
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.head_then h3 {
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+#home {
+    color: rgba(250, 196, 34, 1);
+}
+
+.felix {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    height: 62px;
+    border: 1px solid white;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.main1 {
+    min-width: 100%;
+    height: 1007px;
+    background: linear-gradient(to right, black 50%, rgba(87, 184, 255, 1) 50%);
+    padding-top: 271px;
+}
+
+.eSPORTS {
+    display: flex;
+    align-items: center;
+}
+
+.eSPORTS p {
+    display: flex;
+    color: var(--main-color4);
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    padding-left: 8px;
+    padding-bottom: 18px;
+}
+
+.eSPORTS img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 18px;
+}
+
+.generation h1 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 86px;
+    letter-spacing: 0%;
+    padding-left: 8px;
+    color: white;
+}
+
+.generation img {
+    position: relative;
+    top: -93px;
+    left: 220px;
+    width: 430px;
+    height: 18px;
+}
+
+/* .head_former{
+} */
+
+/* .head_latter{
+} */
+
+.head_latter img {
+    width: 660px;
+    height: 515;
+}
+
+.Lorem {
+    color: rgba(153, 153, 153, 1);
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 60px;
+}
+
+.container2 {
+    max-width: 1320px;
+
+}
+
+.azob {
+    display: flex;
+    padding-left: 285px;
+    gap: 18px;
+}
+
+.anchor1 {
+    color: white;
+    border: none;
+    background-color: var(--main-color4);
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 20px
+}
+
+.anchor2 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: white;
+    padding-left: 40px;
+}
+
+.olma {
+    padding-top: 60px;
+}
+
+.olma h2 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anor {
+    padding-top: 30px;
+}
+
+.anor p {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2 {
+    width: 100%;
+    height: 542px;
+    background-color: var(--main-color3);
+    padding-top: 60px;
+}
+
+.olma img {
+    position: relative;
+    left: 555px;
+    top: 5px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.banan {
+    display: flex;
+    gap: 32px;
+    padding-top: 44px;
+}
+
+.banan div {
+    width: 193px;
+    height: 89px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banan div div {
+    width: 171px;
+    height: 67px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+#third {
+    height: 1072px;
+    width: 100%;
+
+
+    background-image: url('../images/6745cec7a62b403a4434f07deb0b6c0d1af0db9c.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+.first_futu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_futu p {
+    padding-top: 130px;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(87, 184, 255, 1);
+}
+
+.first_futu img {
+    margin-top: 130px;
+    margin-bottom: 11px;
+    width: 32px;
+    height: 32px;
+}
+
+.last_futu h1 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 29px;
+}
+
+.sed p {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: rgba(223, 223, 223, 0.8);
+}
+
+.vivamus {
+    display: flex;
+    gap: 35px;
+}
+
+.background .mol img {
+    width: 31px;
+    height: 29px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.background .mol {
+    margin-top: 63px;
+    width: 642px;
+    height: 212px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.background .mol p {
+    color: rgba(223, 223, 223, 0.8);
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-left: 95px
+}
+
+.background .mol h2 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    padding-left: 24px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.background .mol .buzoq {
+    display: flex;
+}
+
+#forth {
+    width: 100%;
+    background-color: black;
+}
+
+.main4 {
+    color: white;
+    padding: 86px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.habib {
+    padding-top: 38px;
+
+}
+
+.future {
+    display: flex;
+    align-items: center;
+}
+
+.future p {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(87, 184, 255, 1);
+}
+
+.alohida {
+    padding-top: 9px;
+}
+
+.alohida h1 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0%;
+}
+
+.now {
+    padding-top: 38px;
+}
+
+.now p {
+    color: rgba(223, 223, 223, 0.8);
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.past a {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.mexi img {
+    width: 492px;
+    height: 550px;
+}
+
+.past {
+    width: 203px;
+    height: 70px;
+    background-color: var(--main-color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+}
+
+.past a {
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.main5 {
+    display: flex;
+    width: 100%;
+    height: 932px;
+}
+
+.item {
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-image: url('../images/0a287cbea5a79a94232d06c69c65dc3d95dd1d9c.png');
+}
+
+.item2 {
+    background-image: url('../images/0f75e564e9e5824035dfc073dda58cc51e67b01d.png');
+}
+
+.item3 {
+    background-image: url('../images/4d0a7102c103667f17da2c10600ba9d7be9ce75e\ \(1\).png');
+}
+
+.item h2 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.item img {
+    max-width: 128px;
+    max-height: 128px;
+}
+
+.item2 img {
+    margin-bottom: 20px;
+}
+
+.item3 img {
+    margin-bottom: 20px;
+}
+
+#sixth {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 75px 0;
+}
+
+.News {
+    display: flex;
+}
+
+.Indiana{
+    padding-top: 126px;
+}
+
+
+.bottom-one {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.bottom {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(87, 184, 255, 1);
+}
+
+.bottom-two h1 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.Indianapolis{
+    width: 175px;
+    height: 70px;
+    background-color: var(--main-color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Indianapolis a{
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.men img{
+    width: 648px;
+    height: 510px;
+}
+
+.men p{
+    padding-top: 54px;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: var(--main-color2);
+}
+
+.about_too{
+    padding-top: 64px;
+}
