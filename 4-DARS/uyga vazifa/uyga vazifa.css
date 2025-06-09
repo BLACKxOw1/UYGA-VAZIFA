@@ -555,7 +555,7 @@
     display: flex;
 }
 
-.Indiana{
+.Indiana {
     padding-top: 126px;
 }
 
@@ -584,7 +584,7 @@
     color: white;
 }
 
-.Indianapolis{
+.Indianapolis {
     width: 175px;
     height: 70px;
     background-color: var(--main-color2);
@@ -593,7 +593,7 @@
     justify-content: center;
 }
 
-.Indianapolis a{
+.Indianapolis a {
     text-decoration: none;
     font-family: 'Orbitron';
     font-weight: 400;
@@ -602,13 +602,13 @@
     letter-spacing: 0%;
 }
 
-.men img{
+.men img {
     width: 648px;
     height: 510px;
 }
 
-.men p{
-    padding-top: 54px;
+.men p {
+    padding-top: 50px;
     font-family: 'Orbitron';
     font-weight: 400;
     font-size: 16px;
@@ -617,6 +617,166 @@
     color: var(--main-color2);
 }
 
-.about_too{
+.men h3 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0%;
+}
+
+.ular {
+    padding-top: 28px;
+}
+
+
+.about_too {
     padding-top: 64px;
+    display: flex;
+    max-width: 1320px;
+    margin: auto;
+    gap: 24px;
+}
+
+.keyboard {
+    display: flex;
+    gap: 15px;
+}
+
+.class img {
+    width: 312px;
+    height: 189px;
+}
+
+.class p {
+    color: #57B8FF;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    padding-top: 30px;
+}
+
+.class h3 {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+}
+
+.donkey {
+    padding-top: 20px;
+}
+
+.cows {
+    padding-top: 40px;
+}
+
+#seventh {}
+
+.together_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final img {
+    height: 683px;
+    width: 100%;
+}
+
+.mwkmwkmx {
+    padding-top: 129px;
+}
+
+.community h1 {
+    color: #141820;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: 0%;
+}
+
+.community p {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #555555;
+}
+
+.jdjksnxsknxsk {
+    padding-top: 32px;
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.subscribe-container {
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-container input {
+    width: 445px;
+}
+
+.subscribe-container input[type="email"] {
+    padding: 15px 20px 15px 22px;
+    font-family: 'Orbitron';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    border: none;
+    outline: none;
+    width: 445px;
+    color: #555555;
+}
+
+.subscribe-container button {
+    background-color: #57B8FF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Orbitron';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.subscribe-container button:hover {
+    background-color: #4498db;
+}
+
+.porttitor {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.final {
+    background-image: url(../images/fb3eebe2d2f7e8d1588087e3f1c5525c07bbc1de.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 683px;
+}
+
+.final2 {
+    padding-top: 10px;
 }
