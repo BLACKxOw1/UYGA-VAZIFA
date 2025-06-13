@@ -14,7 +14,6 @@
     --main-color5: ;
 }
 
-
 .container {
     max-width: 1320px;
     margin: auto;
@@ -201,8 +200,10 @@
 
 .azob {
     display: flex;
-    padding-left: 285px;
     gap: 18px;
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
 }
 
 .anchor1 {
@@ -552,7 +553,10 @@
 }
 
 .News {
+    max-width: 1320px;
+    margin: auto;
     display: flex;
+    gap: 570px;
 }
 
 .Indiana {
@@ -673,8 +677,6 @@
 .cows {
     padding-top: 40px;
 }
-
-#seventh {}
 
 .together_2 {
     display: flex;

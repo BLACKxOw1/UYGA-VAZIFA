@@ -63,7 +63,7 @@
     clip-path: circle(37.5% at 50% 50%);
     background-color: orangered;
     animation-name: sun;
-    animation-duration: 12s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     left: calc(50% - 90px);
@@ -81,42 +81,8 @@
 }
 
 .cloud1 {
-    clip-path: ellipse(50% 13% at 50% 50%);
-    width: 100px;
-    height: 100px;
-    background-color: lightgray;
-    position: absolute;
-    left: 10px;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-name: clouds;
-
-}
-
-/* .cloud2 {
-    clip-path: polygon(24% 14%, 79% 14%, 96% 50%, 74% 87%, 23% 87%, 3% 50%);
-    width: 100px;
-    height: 100px;
-    background-color: lightgray;
-    position: absolute;
-    left: 30px;
-    top: 130px;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-name: clouds;
-
-}
-
-.cloud3 {
-    clip-path: polygon(24% 14%, 79% 14%, 96% 50%, 74% 87%, 23% 87%, 3% 50%);
-    width: 100px;
-    height: 100px;
-    background-color: lightgray;
-    position: absolute;
-    left: 60px;
-    top: 250px;
+    position: relative;
+    top: 40px;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -125,10 +91,158 @@
 
 @keyframes clouds {
     from {
-        left: 0;
+        left: 30px;
     }
 
     to {
-        left: calc(100% - 80px);
+        left: calc(100% - 170px);
     }
-} */
+}
+
+.cloud1 .clo1 {
+    clip-path: ellipse(50% 13% at 50% 50%);
+    width: 140px;
+    height: 130px;
+    background-color: lightgray;
+}
+
+.clo2 {
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -109px;
+    left: -7px;
+}
+
+.clo3 {
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -164px;
+    left: 92px;
+}
+
+.clo4 {
+    width: 70px;
+    height: 70px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -240px;
+    left: 35px;
+}
+
+.cloud2 {
+    position: relative;
+    left: 20px;
+    top: -120px;
+    animation: cloud2 3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cloud2 {
+    from {
+        left: 30px;
+    }
+
+    to {
+        left: calc(100% - 170px);
+    }
+}
+
+.clo5 {
+    clip-path: ellipse(50% 13% at 50% 50%);
+    width: 140px;
+    height: 130px;
+    background-color: lightgray;
+}
+
+.clo6 {
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -109px;
+    left: -7px;
+}
+
+.clo7 {
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -164px;
+    left: 92px;
+}
+
+.clo8 {
+    width: 70px;
+    height: 70px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -240px;
+    left: 35px;
+}
+
+.cloud3 {
+    position: relative;
+    left: 20px;
+    top: -500px;
+    animation: cloud3 2s infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes cloud3 {
+    from {
+        left: calc(100% - 170px);
+    }
+
+    to {
+        left: 30px;
+    }
+}
+
+.clo9 {
+    clip-path: ellipse(50% 13% at 50% 50%);
+    width: 140px;
+    height: 130px;
+    background-color: lightgray;
+}
+
+.clo10 {
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -109px;
+    left: -7px;
+}
+
+.clo11 {
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -164px;
+    left: 92px;
+}
+
+.clo12 {
+    width: 70px;
+    height: 70px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightgray;
+    position: relative;
+    top: -240px;
+    left: 35px;
+}
