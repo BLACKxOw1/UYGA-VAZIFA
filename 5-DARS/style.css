@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .parent{
+    width: 600px;
+    height: 600px;
+    margin: 150px auto;
+    border: 2px solid black;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    transition: 1s;
+    transition: ;
+}
+
+.child:hover{
+    transform: scale(1.5) rotate(45deg) translate(50%, 50%);
+} */
+
+/* .parent {
+    width: 600px;
+    height: 600px;
+    margin: 150px auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+.child1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    background-color: lightgreen;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.child2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    background-color: lightgreen;
+    animation-name: olma;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.child3 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    background-color: lightgreen;
+    animation-name: meva;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    left: calc(100% - 150px);
+}
+
+.child4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    background-color: lightgreen;
+    animation-name: banan;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    from{
+        left: 0;
+    }
+    to{
+        left: calc(100% - 150px);
+    }
+}
+
+@keyframes olma {
+    from{
+        top: 0;
+    }
+    to{
+        top: calc(100% - 150px);
+    }
+}
+
+@keyframes meva {
+    from{
+        left: 0;
+    }
+    to{
+        left: calc(100% - 150px);
+    }
+}
+
+@keyframes banan {
+    from{
+        left: 0;
+    }
+    to{
+        left: calc(100% - 150px);
+    }
+} */
+
+.parent {
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    width: 350px;
+    height: 380px;
+    background-color: cyan;
+    clip-path: polygon(65% 30%, 0 100%, 100% 100%);
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    top: calc(100% - 380px);
+    z-index: 1;
+}
+
+.child2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: cyan;
+    clip-path: polygon(41% 31%, 0 100%, 85% 100%);
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    top: calc(100% - 300px);
+    left: 250px;
+    z-index: 1;
+}
+
+.child3 {
+    position: absolute;
+    width: 350px;
+    height: 380px;
+    background-color: cyan;
+    clip-path: polygon(45% 24%, 0 100%, 100% 100%);
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    top: calc(100% - 380px);
+    left: calc(100% - 350px);
+    z-index: 1;
+}
+
+.sun {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    clip-path: circle(37.5% at 50% 50%);
+    background-color: orangered;
+    animation-name: sun;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    left: calc(50% - 90px);
+    z-index: 0;
+}
+
+@keyframes sun {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: calc(100% - 200px);
+    }
+}
+
+.cloud1 {
+    clip-path: polygon(24% 14%, 79% 14%, 96% 50%, 74% 87%, 23% 87%, 3% 50%);
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    position: absolute;
+    left: 10px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: clouds ;
+
+}
+
+.cloud2 {
+    clip-path: polygon(24% 14%, 79% 14%, 96% 50%, 74% 87%, 23% 87%, 3% 50%);
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: clouds ;
+
+}
+
+.cloud3 {
+    clip-path: polygon(24% 14%, 79% 14%, 96% 50%, 74% 87%, 23% 87%, 3% 50%);
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    position: absolute;
+    left: 60px;
+    top: 250px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: clouds ;
+}
+
+@keyframes clouds {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: calc(100% - 80px);
+    }
+}
