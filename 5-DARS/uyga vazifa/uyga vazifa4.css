@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 150px auto;
+}
+
+.propeller {
+    position: relative;
+    left: calc(50% - 100px);
+    top: 80px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: spin 2s linear infinite;
+    z-index: 1;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.blade {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+/* Har xil ranglar */
+.top {
+    clip-path: polygon(20% 0, 37% 49%, 20% 100%, 0% 100%, 17% 50%, 0% 0%);
+
+    top: -50px;
+    left: 160px;
+    transform: translateX(-50%);
+    background-color: pink;
+}
+
+.right {
+    clip-path: polygon(20% 0, 37% 49%, 20% 100%, 0% 100%, 17% 50%, 0% 0%);
+    background-color: lightgreen;
+    transform: rotate(90deg);
+    top: 85px;
+    right: -50px;
+    background-color: lightgreen;
+}
+
+.bottom {
+    transform: translateX(-50%) rotate(180deg);
+    clip-path: polygon(20% 0, 37% 49%, 20% 100%, 0% 100%, 17% 50%, 0% 0%);
+    background-color: yellow;
+    position: relative;
+    top: 101px;
+    left: 39px;
+}
+
+.left {
+    clip-path: polygon(20% 0, 37% 49%, 20% 100%, 0% 100%, 17% 50%, 0% 0%);
+    background-color: cyan;
+    z-index: 4;
+    transform: rotate(-90deg);
+    top: -35px;
+    left: -51px;
+    background-color: #457b9d;
+}
+
+.long {
+    width: 29.9px;
+    height: 403px;
+    background-color: rgb(255, 132, 0);
+    position: relative;
+    top: -47px;
+    left: 285px;
+    z-index: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 132, 0);
+    position: relative;
+    clip-path: circle(50% at 50% 50%);
+    top: -39px;
+    left: 279px;
+    z-index: 2;
+}
+
+.sun {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 55, 0, 0.819);
+    position: relative;
+    top: -643px;
+    left: 506px;
+    border-bottom-left-radius: 100%;
+}
+
+.line1 {
+    width: 10px;
+    height: 40px;
+    background-color: orange;
+    position: relative;
+    top: -720px;
+    left: 470px;
+    transform: rotate(75deg);
+}
+
+.line2 {
+    width: 10px;
+    height: 40px;
+    background-color: orange;
+    position: relative;
+    top: -707px;
+    left: 495px;
+    transform: rotate(55deg);
+}
+
+.line3 {
+    width: 10px;
+    height: 40px;
+    background-color: orange;
+    position: relative;
+    top: -717px;
+    left: 540px;
+    transform: rotate(30deg);
+}
