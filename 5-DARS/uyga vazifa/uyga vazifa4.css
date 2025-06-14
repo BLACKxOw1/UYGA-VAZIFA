@@ -9,6 +9,9 @@
     height: 600px;
     border: 2px solid black;
     margin: 150px auto;
+    background-image: url('https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg');
+    background-position: center;
+    background-size: cover;
 }
 
 .propeller {
