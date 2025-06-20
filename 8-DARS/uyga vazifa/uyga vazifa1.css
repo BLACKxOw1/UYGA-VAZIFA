@@ -1,5 +1,125 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+    height: 500px;
+    border: 8px solid lightgray;
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(15, fr1);
+    grid-template-rows: repeat(7, fr1);
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.child:nth-child(1) {
+    background-color: dodgerblue;
+    grid-row: 1 / 8;
+    grid-column: 1 / 5;
+}
+
+.child:nth-child(2) {
+    background-color: rgb(106, 216, 106);
+    grid-row: 1 / 7;
+    grid-column: 5 / 12;
+}
+
+.child:nth-child(3) {
+    background-color: rgb(186, 22, 186);
+    grid-row: 1 / 8;
+    grid-column: 12 /16;
+}
+
+.child:nth-child(4) {
+    background-color: darkblue;
+    grid-row: 7 / 7;
+    grid-column: 5 / 12;
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: 600px;
+        margin: 50px auto;
+        height: 500px;
+        border: 8px solid lightgray;
+        display: grid;
+        gap: 4px;
+        grid-template-columns: repeat(11, fr1);
+        grid-template-rows: repeat(7, fr1);
+    }
+
+    .child:nth-child(1) {
+        background-color: dodgerblue;
+        grid-row: 1 / 8;
+        grid-column: 1 / 5;
+    }
+
+    .child:nth-child(2) {
+        background-color: rgb(106, 216, 106);
+        grid-row: 1 / 5;
+        grid-column: 5 / 12;
+    }
+
+    .child:nth-child(3) {
+        background-color: rgb(186, 22, 186);
+        grid-row: 5 / 7;
+        grid-column: 5 /12;
+    }
+
+    .child:nth-child(4) {
+        background-color: darkblue;
+        grid-row: 7 / 7;
+        grid-column: 5 / 12;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .container {
+        width: 300px;
+        margin: 50px auto;
+        height: 500px;
+        border: 8px solid lightgray;
+        display: grid;
+        gap: 4px;
+        grid-template-columns: repeat(6, fr1);
+        grid-template-rows: repeat(7, 66px);
+    }
+
+    .child:nth-child(1) {
+        background-color: dodgerblue;
+        grid-row: 1 / 1;
+        grid-column: 1 / 7;
+    }
+
+    .child:nth-child(2) {
+        background-color: rgb(106, 216, 106);
+        grid-row: 2 / 5;
+        grid-column: 1 / 7;
+    }
+
+    .child:nth-child(3) {
+        background-color: rgb(186, 22, 186);
+        grid-row: 5 / 7;
+        grid-column: 1 / 7;
+    }
+
+    .child:nth-child(4) {
+        background-color: darkblue;
+        grid-row: 7 / 7;
+        grid-column: 1 / 7;
+    }
 }
