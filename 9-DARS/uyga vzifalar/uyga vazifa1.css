@@ -1,5 +1,585 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+:root {
+  --main-color1: white;
+}
+
+.main_head .uls {
+  display: flex;
+  gap: 50px;
+}
+
+.first {
+  background-color: rgba(191, 201, 204, 0.199);
+  width: 100%;
+  height: 950px;
+}
+
+.main_head .uls li {
+  list-style: none;
+  padding-bottom: 6px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.main_head .uls li:hover {
+  padding-bottom: 3px;
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  color: var(--main-color1);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container3 {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.container2 {
+  max-width: 1520px;
+  margin: auto;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.yahyo {
+  padding: 4px 12px;
+  border-radius: 100px;
+  background-color: lightgreen;
+  color: white;
+  font-size: 13px;
+}
+
+.main_part1_div1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main_part1_div h1 {
+  font-size: 50px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.first_main {
+  color: var(--main-color1);
+}
+
+.second_main img {
+  height: 650px;
+  position: relative;
+  left: 35px;
+}
+
+.btn button {
+  padding: 15px 25px;
+  color: white;
+  background-color: rgba(0, 255, 255, 0.49);
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  border: none;
+  border-radius: 8px;
+}
+
+.clip {
+  clip-path: ellipse(45% 22% at 53% 48%);
+  width: 2000px;
+  height: 2700px;
+  background-color: dodgerblue;
+  transform: rotate(-15deg);
+  position: relative;
+  top: -2100px;
+  left: -500px;
+  z-index: -1;
+}
+
+.main_part2 {
+  display: flex;
+  padding-top: 200px;
+  color: black;
+  justify-content: space-between;
+}
+
+.main_div1 h2 {
+  font-size: 30px;
+  padding-bottom: 18px;
+}
+
+.line {
+  height: 80px;
+  margin-top: 30px;
+  width: 3.2px;
+  background-color: rgba(66, 62, 62, 0.496);
+  position: relative;
+  left: 45px;
+}
+
+.play {
+  padding: 10px 25px;
+  color: white;
+  display: flex;
+  background-color: black;
+  gap: 10px;
+  position: relative;
+  border-radius: 5px;
+  left: 100px;
+  cursor: pointer;
+
+}
+
+.pla {
+  margin-top: 10px;
+}
+
+.main_div2 {
+  padding-top: 20px;
+}
+
+.play img {
+  width: 25px;
+  height: 25px;
+}
+
+.maintain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.remotely {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.remotely h1 {
+  font-size: 35px;
+
+}
+
+.there {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.slar {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.slar1 {
+  display: flex;
+  gap: 155px;
+}
+
+.slar1 .mini img {
+  padding: 2px;
+  transform: rotate(10deg);
+}
+
+.slar1 .yuqori img {
+  transform: rotate(-15deg);
+}
+
+.slar1 div img {
+  padding: 7px;
+  border-radius: 15px;
+  background-color: blue;
+}
+
+.second {
+  padding-bottom: 70px;
+}
+
+.slar2 {
+  display: flex;
+  gap: 155px;
+}
+
+.slar2 div img {
+  padding: 7px;
+  border-radius: 15px;
+  background-color: blue;
+}
+
+.pastga {
+  position: relative;
+  top: 150px;
+}
+
+.doira4 {
+  background-color: lightgray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  left: -50px;
+  top: 30px;
+}
+
+.doira1 {
+  background-color: lightgray;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+  top: -100px;
+}
+
+.doira2 {
+  background-color: lightgray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  left: -100px;
+  top: -60px;
+}
+
+.doira3 {
+  background-color: lightgray;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+  top: -200px;
+}
+
+.faster {
+  padding-top: 300px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.service1 p {
+  color: dodgerblue;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.image_1 img {
+  position: relative;
+  top: -33px;
+}
+
+.service2 {
+  padding-bottom: 25px;
+}
+
+.service2 h1 {
+  font-size: 35px;
+}
+
+.service3 {
+  padding-bottom: 25px;
+}
+
+.service3 p {
+  color: rgb(127, 125, 125);
+}
+
+.platform {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third {
+  width: 100%;
+  background-color: rgba(191, 201, 204, 0.199);
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.third_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third_one div h1 {
+  padding-bottom: 10px;
+}
+
+.third div p {
+  color: rgb(111, 110, 110);
+}
+
+.path {
+  clip-path: circle(50% at 50% 50%);
+  background-color: white;
+  width: 125px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.uch .path img {
+  width: 80px;
+}
+
+.third_two {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  gap: 150px;
+}
+
+.uch div h2 {
+  padding-bottom: 20px;
+}
+
+.fourth {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.fourth_one {
+  padding-bottom: 110px;
+}
+
+.one_one {
+  position: relative;
+  top: 20px;
+}
+
+.service_btn button {
+  padding: 15px 25px;
+  color: dodgerblue;
+  background-color: rgba(0, 183, 255, 0.195);
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  border: none;
+  border-radius: 8px;
+}
+
+.service_btn {
+  padding-top: 20px;
+}
+
+.fourth_one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service4_btn button {
+  padding: 15px 25px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  border: none;
+  border-radius: 8px;
+}
+
+.fourth_two {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.two_two {
+  position: relative;
+  top: 70px;
+}
+
+.fourth_three {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+
+.three_one {
+  position: relative;
+  top: 70px;
+}
+
+.fifth {
+  background-color: dodgerblue;
+  padding: 80px 0 110px;
+  color: white;
+}
+
+.fifth_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.fifth_one h1 {
+  font-size: 40px;
+}
+
+.fifth_one button {
+  padding: 15px 25px;
+  color: dodgerblue;
+  background-color: white;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  border: none;
+  border-radius: 8px;
+}
+
+.sixth {
+  background-color: rgba(191, 201, 204, 0.199);
+  padding-top: 80px;
+}
+
+.sixth_cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sixth_one {
+  padding-top: 50px;
+}
+
+.biz {
+  display: flex;
+  padding-top: 80px;
+  gap: 90px;
+}
+
+.biz1 .pastga1{
+  transform: rotate(-15deg);
+}
+
+.biz1 .tepga{
+  transform: rotate(15deg);
+}
+
+.pastg{
+  position: relative;
+  top: 100px;
+}
+
+.biz1 img{
+  padding: 5px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
+
+.biz1{
+  display: flex;
+  gap: 50px;
+}
+
+.biz1 div img{
+  width: 30px;
+  height: 30px;
+}
+
+.main_part5{
+  display: flex;
+}
+
+.contlar{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont1 div{
+  padding-bottom: 40px;
+}
+
+.cont1 div h3{
+  padding-bottom: 5px;
+}
+
+.build{
+  color: dodgerblue;
+}
+
+.cont2 div h2,
+.cont3 div h2,
+.cont4 div h2{
+  padding-bottom: 40px;
+}
+
+.cont2 div p,
+.cont3 div p,
+.cont4 div p{
+  padding-bottom: 30px;
+}
+
+.seventh p{
+  color: rgb(111, 110, 110);
+}
+
+.sixth_two img{
+  position: relative;
+  top: 10px;
+}
+
+.line1{
+  width: 100%;
+  height: 2px;
+  background-color: rgba(211, 211, 211, 0.532);
+  position: relative;
+  top: -50px;
+}
+
+.line2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.line3{
+  display: flex;
+  gap: 50px;
+}
+
+.seventh_con{
+  padding-bottom: 50px;
 }
