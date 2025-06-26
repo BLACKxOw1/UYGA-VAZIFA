@@ -1,0 +1,122 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 70%;
+  height: 700px;
+  background: linear-gradient(to right, dodgerblue, purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.container .card {
+  width: 350px;
+  height: 530px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+.container .card .card1 img {
+  width: 50px;
+  height: 50px;
+}
+.container .card .card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.container .card .card2 img {
+  width: 250px;
+  height: 150px;
+}
+.container .card .card3 .fff {
+  display: flex;
+  justify-content: space-between;
+}
+.container .card .card3 .fff .ffff {
+  display: flex;
+  gap: 10px;
+}
+.container .card .card3 .fff .ffff .div1 {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+}
+.container .card .card3 .fff .ffff .div1:hover {
+  border: 7px solid blue;
+  position: relative;
+  top: 26px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+.container .card .card3 .fff .ffff .div2 {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+}
+.container .card .card3 .fff .ffff .div2:hover {
+  border: 7px solid red;
+  position: relative;
+  top: 26px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+.container .card .card3 .fff .ffff .div3 {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+}
+.container .card .card3 .fff .ffff .div3:hover {
+  border: 7px solid yellow;
+  position: relative;
+  top: 26px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+.container .card .card3 .fff .bir {
+  display: flex;
+  flex-direction: column;
+}
+.container .card .card3 .fff .bir div {
+  line-height: 10px;
+  color: rgb(148, 148, 148);
+  position: relative;
+  top: 25px;
+}
+.container .card .card3 .fff .bir .only {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+.container .card .card4 button {
+  padding: 15px 140px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to right, dodgerblue, purple);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .card .card4 button:hover {
+  transform: scaleY(1.1);
+}/*# sourceMappingURL=style.css.map */
